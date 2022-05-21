@@ -1,0 +1,13 @@
+#+title: Estudos em rede complexa 
+#+author:  Jefter Santiago
+#+options: num:nil
+* [[./src/01 - Phase Transition][Projeto 01 - Percolação em grafos aleatórios]]
+
+
+
+
+
+
+
+
+
