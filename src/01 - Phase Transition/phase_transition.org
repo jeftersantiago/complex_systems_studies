@@ -4,7 +4,7 @@
 #+setupfile: ~/Dropbox/Templates/computing.org
 
 Analisar o comportamento do tamanho do [[https://en.wikipedia.org/wiki/Giant_component#:~:text=In%20network%20theory%2C%20a%20giant,of%20the%20entire%20graph's%20vertices.][componente gigante]] em
-uma rede com quantidade de nós igual a \( N \) usando o modelo de Erdős–Rényi
+uma rede com quantidade de nós igual a \( N \) usando o modelo de Erdos–Rényi
 para gerar grafos aleatórios com probabilidades de \( p \) crescentes tal que
 \( p \cdot  N = 1 \).
 
