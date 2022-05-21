@@ -16,7 +16,7 @@ Abaixo o código:
   import matplotlib.pyplot as plt
   import time 
 
-  star_time = time.time()
+#  star_time = time.time()
 
   # numero de nós no grafo
   n = 500 
@@ -30,8 +30,8 @@ Abaixo o código:
   # Tamanho do maior componente para cada probabilidade.
   largest_cc = [len(max(nx.connected_components(er[i]), key=len)) for i in range(n)]
 
-  print("For n = ", n)
-  print("--- %s seconds ---" % (time.time() - star_time) )
+#  print("For n = ", n)
+#  print("--- %s seconds ---" % (time.time() - star_time) )
 
   plt.plot(p, largest_cc)
   plt.xlabel("Probabilidade p")
