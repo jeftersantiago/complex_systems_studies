@@ -8,8 +8,6 @@ uma rede com quantidade de nós igual a \( N \) usando o modelo de Erdos-Rényi
 para gerar grafos aleatórios com probabilidades de \( p \) crescentes tal que
 \( p \cdot  N = 1 \).
 
-Abaixo o código:
-
 #+begin_src python
   import networkx as nx
   import numpy as np
