@@ -5,7 +5,6 @@
 class Graph{
 public:
     std::vector<std::vector<bool>> adjMatrix;
-    
     // Generates an Erdos-Renyi random graph (undirected).
     std::vector<std::vector<bool>> Erdos_Renyi_Graph(int n, double p){
 
@@ -16,7 +15,6 @@ public:
           std:: cout << "Probability = " << p << std::endl;
           std::cout << "Random Distribution = " << random_dist(mt) << std::endl;
         */
-
         std::vector<std::vector<bool>> adjMatrix(n, std::vector<bool>(n,false));
         for(int i = 0; i < n; i++){
             for(int j = i + 1; j < n; j++){

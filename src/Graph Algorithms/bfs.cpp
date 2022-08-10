@@ -45,9 +45,7 @@ void Graph::BFS(int root){
             }
         }
     }
-    
 }
-    
 int main(){
     Graph g(4);
 
