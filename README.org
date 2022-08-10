@@ -1,8 +1,10 @@
-#+title: Estudos em rede complexa 
-#+title: Complex networks and Graph theory studies
+#+title: Complex systems studies 
+#+title: Collection of small projects
 #+author:  Jefter Santiago
 #+options: num:nil
-* [[./src/01 - Phase Transition][Projeto 01 - Phase Transition]]
+
+
+
 
 
 
