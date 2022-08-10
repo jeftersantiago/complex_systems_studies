@@ -1,4 +1,4 @@
-using Random, Plots
+using Plots
 interval = (2.3, 4);
 max_iter = 1000;
 
@@ -12,18 +12,18 @@ for i = 1:length(r)
         println("X_n+1 = ", X[i, j+1]);
     end
 end
-
 # X[:, end-100:end] only use's the last values ploted
 # The values for r between 0 and 1 aren't important to the plot.
-plot(r, X[:, end-100:end],
-    seriestype = :scatter,
-    markercolor = :green,
-    background_color = :black,
-    markerstrokecolor=:match,
-    markersize = 0.8,
-    markeralpha = 0.3,
-    markerstrokewidth = 0,
-    legend = false,
-    grid = false,
-    );
+last = 100; # last points
+plot(r, X[:, end-last:end],
+     seriestype = :scatter,
+     markercolor = :green,
+     background_color = :black,
+     markerstrokecolor=:match,
+     markersize = 0.8,
+     markeralpha = 0.3,
+     markerstrokewidth = 0,
+     legend = false,
+     grid = false,
+     );
 savefig("Bifurcation Diagram.png");
